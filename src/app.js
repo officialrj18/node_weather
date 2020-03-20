@@ -1,4 +1,4 @@
-//core module
+//core modules
 const path = require('path');
 
 const express = require('express');
