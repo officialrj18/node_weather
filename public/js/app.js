@@ -19,7 +19,7 @@ weatherForm.addEventListener('submit', (e) => {
     msgOne.textContent = "Forecast is loding..."
     msgTwo.textContent = ""
 
-    fetch(`http://localhost:3000/weather?address=${location}`).then((response) => {
+    fetch(`/weather?address=${location}`).then((response) => {
 
 
         response.json().then(({ error, location, forecast }) => {
